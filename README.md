@@ -1,70 +1,53 @@
-# Getting Started with Create React App
+# Job Board App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the Job Board App! This application allows you to browse and post job listings. One of the main features of this app is the ability to generate job descriptions using ChatGPT, an AI-powered language model.
 
-## Available Scripts
+## Getting Started
 
-In the project directory, you can run:
+To get started with the Job Board App, follow the steps below:
 
-### `npm start`
+1. Clone this repository to your local machine.
+2. Install the necessary dependencies by running `npm install`.
+3. Start the development server by running `npm start`.
+4. Open [http://localhost:3000](http://localhost:3000) in your browser to view the app.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The Job Board App provides the following features:
 
-### `npm test`
+- Browse and search for job listings.
+- Create new job listings with detailed information.
+- Generate job descriptions using ChatGPT for a more personalized touch. The job description generation is implemented in the accompanying REST API, which utilizes ChatGPT's capabilities.
+- Edit and delete existing job listings.
+- User-friendly interface for easy navigation and interaction.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Technologies Used
 
-### `npm run build`
+The Job Board App is built using the following technologies:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- React: A JavaScript library for building user interfaces.
+- Create React App: This app was bootstrapped with Create React App. For detailed configuration and customization options, please refer to the [Create React App documentation](https://create-react-app.dev/docs/getting-started).
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+The job description generation is powered by ChatGPT, an AI language model that provides advanced natural language processing capabilities.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Contributing
 
-### `npm run eject`
+We welcome contributions from the community! If you have any ideas, suggestions, or bug reports, please submit them through the issue tracker or submit a pull request.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## License
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+The Job Board App is released under the [MIT License](LICENSE).
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Author
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- Phong Ly
+- Email: lyquocphong@gmail.com
 
-## Learn More
+## Contributors
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- [Phong Ly](lyquocphong@gmail.com)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Repository
 
-### Code Splitting
+The source code for the Job Board App can be found on GitHub at [https://github.com/lyquocphong/job-board-react](https://github.com/lyquocphong/job-board-react).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
